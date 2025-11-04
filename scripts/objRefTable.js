@@ -13,9 +13,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Browser.Exps.QueryParam,
+		C3.Plugins.System.Acts.SetLayerVisible,
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.System.Acts.SetGroupActive,
-		C3.Plugins.System.Acts.SetLayerVisible,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.System.Acts.SetLayerInteractive,
 		C3.Plugins.Sprite.Acts.SetScale,
@@ -49,12 +49,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.AJAX.Exps.LastStatusCode,
 		C3.Plugins.Json.Exps.Get,
 		C3.Plugins.AJAX.Cnds.OnError,
+		C3.Plugins.AJAX.Acts.SetHeader,
 		C3.Plugins.AJAX.Acts.SetTimeout,
-		C3.Plugins.AJAX.Acts.Request,
+		C3.Plugins.AJAX.Acts.Post,
 		C3.Plugins.Browser.Acts.Reload,
 		C3.Behaviors.Tween.Cnds.OnTweensFinished,
 		C3.Plugins.Sprite.Acts.StartAnim,
-		C3.JavaScriptInEvents.EventSheetHome_Event50_Act5,
+		C3.JavaScriptInEvents.EventSheetHome_Event51_Act1,
 		C3.Plugins.System.Acts.SetLayerEffectEnabled
 	];
 };

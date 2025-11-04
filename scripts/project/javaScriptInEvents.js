@@ -2,7 +2,7 @@
 
 const scriptsInEvents = {
 
-	async EventSheetHome_Event50_Act5(runtime, localVars)
+	async EventSheetHome_Event51_Act1(runtime, localVars)
 	{
 		window.top.location.reload();
 	}
